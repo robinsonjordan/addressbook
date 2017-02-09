@@ -4,6 +4,6 @@ install:
 jdk:
 - oraclejdk8
 deploy:
-	provider: heroku
-	app: jordan-addressbook
-	api_key: 3dcf1144-c431-403e-bc5e-7be5e2ce40f5
+  provider: heroku
+  app: jordan-addressbook
+  api_key: 3dcf1144-c431-403e-bc5e-7be5e2ce40f5
