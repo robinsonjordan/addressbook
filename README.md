@@ -1,3 +1,53 @@
+Jordan Robinson
+B00600422
+CSCI-3130 Software Development
+Assignment 2
+
+GitHub repository URL: https://github.com/robinsonjordan/addressbook
+Travis CI build page URL: https://travis-ci.org/robinsonjordan/addressbook/builds/200029903
+Heroku URL: https://jordan-addressbook.herokuapp.com/
+
+Part 1)
+
+	a)
+		Simply click the 'fork' button on the repository's github page while logged in
+
+	b)
+		1) Import the repository as maven project with the github page's URI
+		2) Right click project, select Run as > Maven build 
+		3) Under goal, put "jetty:run"
+		4) visit 'localhost:8080'
+
+	c)
+		1) Right click project, select Team > Switch To > New Branch
+		2) Name branch, tick 'configure upstream for push and pull'
+		3) Right click project, select Team > Push Branch 'branchName'
+		4) Accept following dialogue, check result on github
+		
+Part 3)
+
+	a)
+		1) Create a file named ".travis.yml" in addressbook directory
+		2) Configure travis.yml for java, maven, and jdk
+		3) Commit change, log in to travis with github account
+		
+	b)
+		1) Right click project, select Team > Switch to > Master
+		2) Select Team > Merge
+		3) Select todo_branch
+		4) Select Team > Push to Upstream
+		
+Part 4)
+
+	a)
+		1) Add heroku and API key to .travis.yml
+		2) Push to git and build in travis
+		3) After successful build, edit heroku settings to allow online access
+		4) Open app
+
+
+
+
 Addressbook Tutorial
 ====================
 
